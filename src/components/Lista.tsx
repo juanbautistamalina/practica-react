@@ -5,16 +5,13 @@ type Props = {
 };
 
 function Lista(props: Props) {
+  
   // Funcionalidad para seleccionar elemento
   const [index, setIndex] = useState(-1);
   const addElement = (elemento: number) => {
     setIndex(elemento);
   };
 
-  // Funcionalidad para eliminar elementos
-  const removeElement = (elemento: number) => {
-    setIndex(elemento);
-  };
 
   const { lista } = props;
   return (

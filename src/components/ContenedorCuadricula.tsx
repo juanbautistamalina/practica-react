@@ -9,8 +9,7 @@ export default function Cuadricula(props: Props) {
   return (
     <div className="container text-center">
       <div className="row">
-        <div className="col">{children}</div>
-
+        {children}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import styles from "./Btn.module.css";
+import styles from "./SendButton.module.css";
 import { IoPaperPlane } from "react-icons/io5";
 import { FaCheck } from "react-icons/fa";
 
